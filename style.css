@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url(Zoom\ Background\ -\ Planetas\ no\ Espaço.png);
+    background-position:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+.quiz-container{
+    background-color:#f3d8d773;
+    border-radius: 13px;
+    padding: 22px;
+    padding-top: 60px;
+    box-shadow: 0px 10px 15px#f5bfaf81;
+    text-align: center;  
+
+}
+
+#pergunta{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#opcoes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.correto{
+    background-color: #8BC34A;
+}
+
+.incorreto{
+    background-color: #FF5722;
+}
